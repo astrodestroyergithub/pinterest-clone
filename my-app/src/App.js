@@ -9,11 +9,10 @@ function App() {
               { console.log('We are inside the return') }
               { showEmployees ? (
                 <>
-                  <Employee />
-                  <Employee />
-                  <Employee />
-                  <Employee />
-                  <Employee />
+                  <Employee name='Tamojit' role='Intern' />
+                  <Employee name='Amitesh' />
+                  <Employee name='Priyanka' />
+                  <Employee name='Arpita' />
                 </>
               ) :
                 <p>We can not show you the employees</p>
